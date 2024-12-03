@@ -25,6 +25,11 @@ form {
   align-items: center;
 }
 
+.form-item-jk {
+  justify-content: left;
+}
+
+
 input[type="number"],
 select {
   width: 40%;
@@ -59,7 +64,29 @@ button {
   color: antiquewhite;
 }
 
+ol {
+  padding-left: 20px;
+}
+
+.hasil-bmi {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.penyakit {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+}
 
 footer {
   text-align: center;
+  margin-top: 150px;
 }

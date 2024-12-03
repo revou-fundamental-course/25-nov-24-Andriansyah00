@@ -18,11 +18,20 @@
         <!-- Main Article -->
         <article>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur rerum nesciunt animi excepturi omnis, dicta, voluptatibus impedit libero nihil ea repellat voluptatum totam voluptates ipsum iusto! Praesentium dolores quam sint.
+            Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh ygang sehat. Bagiamna denganmu ? Yuk, hitung sekarang di kalkulator BMI.
           </p>
         </article>
 
         <form>
+          <!-- Pilihan Jenis Kelamin -->
+          <div class="form-item-jk">
+            <label for="jenis-kelamin">Jenis Kelamin</label>
+            <div id="jenis-kelamin">
+              <label> <input type="radio" name="jenis-kelamin" value="Laki-laki" /> Laki-laki </label>
+              <label> <input type="radio" name="jenis-kelamin" value="Perempuan" /> Perempuan </label>
+            </div>
+          </div>
+
           <div class="form-item">
             <label for="berat-badan-input"> Berat Badan (kg) </label>
             <input type="number" id="berat-badan-input" />
@@ -48,36 +57,80 @@
         <article>
           <header>
             <h2>Keunggulan Fitur</h2>
+            <ol>
+              <li>Menghitung berat badan</li>
+              <li>Menentukan kategori berat badan ideal atau tidak</li>
+              <li>Mempersiapkan program penurunan berat badan</li>
+            </ol>
+            <p>
+              Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang
+              yang memenuhi syarat seperti dokter.
+            </p>
+            <p>
+              Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam
+              meter) atau BMI = Kg/M<sup>2</sup>.
+            </p>
           </header>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus tempora inventore soluta. Vero nisi et consequuntur soluta assumenda, aliquid, porro dolorum veniam ea labore, necessitatibus itaque modi sint odit?
-          </p>
         </article>
       </section>
 
       <!-- Section Hasil Kalkulasi -->
       <section class="main-section">
-        <div>
-          <header>
-            <h2>Hasil</h2>
-          </header>
-
+        <header>
+          <h2>Hasil</h2>
+        </header>
+        <div class="hasil-bmi">
           <p>Berat Badan Lebih</p>
 
           <div id="result-calculation">0</div>
 
           <p id="info-result">Anda Memiliki Berat Badan</p>
+
+          <div class="form-button-hasil">
+            <button class="bg-cadet-blue color-antiquewhite">Download Hasil BMI</button>
+          </div>
         </div>
 
         <!-- Third Article -->
-        <article></article>
+        <article>
+          <p>Hasil BMI diantara 23 dan 25</p>
+          
+          <p>
+            Anda berada dalam kategori overweight atau berat badan berlebih. Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalor makanan yang dikonsumsi dan berolahraga. Jika BMI Anda berada dalam kategori ini maka Anda
+            dianjurkan untuk menurunkan berat badan hingga batas normal.
+          </p>
+
+          <div class="form-button-hasil2">
+            <button class="bg-cadet-blue color-antiquewhite">Konsultasi Ahli Gizi Via Aplikasi</button>
+            <button class="bg-cadet-blue color-antiquewhite">Registrasi Online Ahli Gizi</button>
+          </div>
+
+          <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+
+          <div class="penyakit">
+            <p>Beberapa penyakit yang berasal dari kegemukan</p>
+
+            <ul>
+              <li>Diabetes</li>
+              <li>Hipertensi</li>
+              <li>Sakit Jantung</li>
+              <li>Osteoarthritis</li>
+            </ul>
+
+            <div class="form-button-hasil3">
+              <button class="bg-cadet-blue color-antiquewhite">Konsultasi Dokter Via Aplikasi</button>
+              <button class="bg-cadet-blue color-antiquewhite">Registrasi Online Sekarang</button>
+            </div>
+          </div>
+        </article>
       </section>
     </main>
 
     <!-- Footer -->
     <footer>
-      <p>Made by Andriansyah@2024</p>
+      <p>Created by Andriansyah@2024</p>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
